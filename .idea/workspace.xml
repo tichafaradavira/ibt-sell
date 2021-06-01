@@ -151,17 +151,17 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/customers/app/Http/Requests/Invoice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ibt-sell" />
       <recent name="C:\xampp\htdocs\ibt-sell\modules\customers\app\Http\Requests\Invoice" />
       <recent name="C:\xampp\htdocs\ibt-sell\modules\customers\app\Http\Requests\Lead" />
       <recent name="C:\xampp\htdocs\ibt-sell\modules\customers\app\Http\Resources" />
       <recent name="C:\xampp\htdocs\ibt-sell\modules\customers\database\migrations" />
-      <recent name="C:\xampp\htdocs\ibt-sell\modules\customers\database\factories" />
     </key>
   </component>
   <component name="RunManager">
@@ -223,6 +223,7 @@
       <workItem from="1622311287864" duration="4555000" />
       <workItem from="1622349104659" duration="6006000" />
       <workItem from="1622397408101" duration="1226000" />
+      <workItem from="1622512840850" duration="804000" />
     </task>
     <servers />
   </component>
