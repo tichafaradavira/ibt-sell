@@ -1,0 +1,28 @@
+{
+    "name": "modules/transactions",
+    "type": "ibt-core",
+    "description": "The transactions module to the ibt tutoring system",
+    "authors": [
+        {
+            "name": "Tichafara Davira",
+            "email": "tichafaradavira@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Transactions\\Providers\\ModuleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Transactions\\": "/app",
+            "Modules\\Transactions\\Database\\Factories\\": "database/factories/",
+            "Modules\\Transactions\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

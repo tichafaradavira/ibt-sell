@@ -1,0 +1,28 @@
+{
+    "name": "modules/products",
+    "type": "ibt-core",
+    "description": "The products module to the ibt tutoring system",
+    "authors": [
+        {
+            "name": "Tichafara Davira",
+            "email": "tichafaradavira@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Products\\Providers\\ModuleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Products\\": "/app",
+            "Modules\\Products\\Database\\Factories\\": "database/factories/",
+            "Modules\\Products\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

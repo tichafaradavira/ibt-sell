@@ -1,0 +1,28 @@
+{
+    "name": "modules/customers",
+    "type": "ibt-core",
+    "description": "The customers module to the ibt tutoring system",
+    "authors": [
+        {
+            "name": "Tichafara Davira",
+            "email": "tichafaradavira@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Customers\\Providers\\ModuleServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Customers\\": "/app",
+            "Modules\\Customers\\Database\\Factories\\": "database/factories/",
+            "Modules\\Customers\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}
