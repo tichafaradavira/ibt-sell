@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Modules\Transactions\Http\Controllers\TransactionsController;
-use Modules\Transactions\Http\Controllers\ExpensesCOntroller;
+use Modules\Transactions\Http\Controllers\ExpensesController;
 
 
 Route::middleware(['auth:api'])->group(function () {
