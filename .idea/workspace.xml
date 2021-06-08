@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="02e92d64-6bc9-470a-8605-389a5d80afb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/transactions/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/transactions/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/products/app/Http/Requests/Product/AddProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/products/app/Http/Requests/Product/AddProductRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/products/app/Http/Requests/Product/EditProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/products/app/Http/Requests/Product/EditProductRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Expense/AddExpenseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Expense/AddExpenseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Expense/EditExpenseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Expense/EditExpenseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Transaction/AddTransactionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Transaction/AddTransactionRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Transaction/EditTransactionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/transactions/app/Http/Requests/Transaction/EditTransactionRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,6 +236,7 @@
       <workItem from="1622397408101" duration="1226000" />
       <workItem from="1622512840850" duration="2124000" />
       <workItem from="1622773734158" duration="472000" />
+      <workItem from="1622918453967" duration="2190000" />
     </task>
     <servers />
   </component>

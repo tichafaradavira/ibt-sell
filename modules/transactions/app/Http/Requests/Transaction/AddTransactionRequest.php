@@ -25,7 +25,7 @@ class AddTransactionRequest extends FormRequest
     {
         return [
         'items' => 'required|array|min:1',
-        'paid_price' => '',
+        'paid_price' => 'numeric|digits:20',
         'description' => '',
          'customer' => []
         ];
@@ -35,6 +35,7 @@ class AddTransactionRequest extends FormRequest
     {
         return [
             'items.required' => 'The  items are required',
+            'paid_price.digits' => 'The paid price is too large',
 //            'paid_price.required' => 'The paid price is required',
         ];
     }

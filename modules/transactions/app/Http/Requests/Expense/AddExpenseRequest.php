@@ -24,7 +24,7 @@ class AddExpenseRequest extends FormRequest
     public function rules()
     {
         return [
-            'cost' => 'required',
+            'cost' => 'numeric|digits:20|required',
             'description' => '',
             'paid_at' => ''
         ];
@@ -34,6 +34,8 @@ class AddExpenseRequest extends FormRequest
     {
         return [
             'cost.required' => 'The  cost is required',
+            'cost.digits' => 'The cost is too large',
+
         ];
     }
 }

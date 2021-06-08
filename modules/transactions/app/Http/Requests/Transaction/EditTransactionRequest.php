@@ -25,7 +25,7 @@ class EditTransactionRequest extends FormRequest
     {
         return [
             'items' => 'required|array',
-            'paid_price' => 'required',
+            'paid_price' => 'numeric|digits:20',
             'description' => '',
             'customer' => ''
         ];
@@ -37,6 +37,9 @@ class EditTransactionRequest extends FormRequest
             'name.required' => 'The  name is required',
             'buying_price.required' => 'The buying price is required',
             'selling_price.required' => 'The selling price is required',
+            'paid_price.digits' => 'The paid price is too large',
+
+
         ];
     }
 }

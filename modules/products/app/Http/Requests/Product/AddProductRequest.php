@@ -26,8 +26,8 @@ class AddProductRequest extends FormRequest
         return [
 
         'name' => 'required|max:255',
-        'buying_price' => '',
-        'selling_price' => 'required',
+        'buying_price' => 'numeric|digits:20',
+        'selling_price' => 'numeric|required|digits:20',
         'description' => '',
         'quantity' => 'min:0',
         ];
@@ -38,6 +38,7 @@ class AddProductRequest extends FormRequest
         return [
             'name.required' => 'The  name is required',
             'buying_price.required' => 'The buying price is required',
+            'buying_price.digits' => 'The buying price is too long',
             'selling_price.required' => 'The selling price is required',
         ];
     }
